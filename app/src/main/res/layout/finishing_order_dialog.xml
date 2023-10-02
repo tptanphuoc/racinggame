@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="410dp"
+    android:layout_height="500dp"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <!-- Title TextView -->
+    <TextView
+        android:id="@+id/finishingOrder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp"
+        android:text="Finishing Order"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <!-- Car 1 -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:id="@+id/firstCarImg"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/blackcar" /> <!-- Replace with your car image -->
+        <TextView
+            android:id="@+id/firstCarText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="1st"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <!-- Car 2 -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:id="@+id/secondCarImg"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/bluecar" /> <!-- Replace with your car image -->
+        <TextView
+            android:id="@+id/secondCarText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="2nd"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <!-- Car 3 -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/thirdCarImg"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/greencar" /> <!-- Replace with your car image -->
+        <TextView
+            android:id="@+id/thirdCarText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="3rd"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <!-- Car 4 -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:id="@+id/fouthCarImg"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/purplecar" /> <!-- Replace with your car image -->
+        <TextView
+            android:id="@+id/fouthCarText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="4th"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textViewResult"
+        android:layout_width="match_parent"
+        android:layout_height="105dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/confirmResultBtn"
+        android:layout_width="126dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="16dp"
+        android:text="Confirm" />
+
+</LinearLayout>

@@ -1,0 +1,74 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <!-- Car 1 -->
+    <CheckBox
+        android:id="@+id/checkbox_blackcar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Black car" />
+
+    <!-- EditText for Car 1 bet -->
+    <EditText
+        android:id="@+id/edittext_blackcar_bet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter bet for black car"
+        android:inputType="numberDecimal"
+        android:enabled="false"/>
+
+    <!-- Car 1 -->
+    <CheckBox
+        android:id="@+id/checkbox_bluecar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Blue car" />
+
+    <!-- EditText for Car 1 bet -->
+    <EditText
+        android:id="@+id/edittext_bluecar_bet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter bet for blue car"
+        android:inputType="numberDecimal"
+        android:enabled="false"/>
+
+    <!-- Car 1 -->
+    <CheckBox
+        android:id="@+id/checkbox_greencar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Green car" />
+
+    <EditText
+        android:id="@+id/edittext_greencar_bet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter bet for green car"
+        android:inputType="numberDecimal"
+        android:enabled="false"/>
+
+    <CheckBox
+        android:id="@+id/checkbox_purplecar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Purple car" />
+
+    <EditText
+        android:id="@+id/edittext_purplecar_bet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter bet for purple car"
+        android:inputType="numberDecimal"
+        android:enabled="false"/>
+
+    <Button
+        android:id="@+id/buttonStart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start" />
+
+    <!-- Play Button -->
+</LinearLayout>
